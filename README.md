@@ -30,7 +30,7 @@ The project directory:
 
 ## Test the file reader
 The test directory:
-![](docs/images/Tests.png)
+![](docs/images/Tests.png?v=4&s=200)
 
 # Execution
 
