@@ -59,3 +59,11 @@ The test directory:
 - `>> FileReaderApplication data.csv`
 
 No option is specified. It means, data is read and parsed as CSV record
+
+## Running from IDE (IntelliJ)
+Run/Debug Configuration
+![](docs/images/IDEConfig.png)
+
+Output
+![](docs/images/output.png)
+
