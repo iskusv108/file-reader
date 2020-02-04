@@ -44,15 +44,15 @@ The test directory:
 - Once build is done then either create a Run config in your IDE or type the command from terminal/CMD
 
 ### Usage 1`
-- `>> FileReaderApplication data.csv ENC_AES128 COM_GZIP` _ENC = encrypt, COM = compression_
+- `>> FileReaderApplication data.csv ENC_AES128 COM_GZIP` _( ENC = encrypt, COM = compression )_
   - Here compression and encryption modules are loaded since user specified both the options. It means, data is decompressed first, decrypted and parsed as CSV record
 
 ### Usage 2
-- `>> FileReaderApplication data.csv COM_GZIP` _COM = compression_
+- `>> FileReaderApplication data.csv COM_GZIP` _( COM = compression )_
   - Here compression module is loaded since user specifieed compression only. It means, data is decompressed and parsed as CSV record
 
 ### Usage 3
-- `>> FileReaderApplication data.csv ENC_AES128` _ENC = encrypt_
+- `>> FileReaderApplication data.csv ENC_AES128` _( ENC = encrypt )_
   - Here encryption module is loaded since user specify encryption only. It means, data is decrypted and parsed as CSV record
 
 ### Usage 4
