@@ -30,7 +30,7 @@ The project directory:
 
 ## Test the file reader
 The test directory:
-![](docs/images/Tests.png=582x807)
+![](docs/images/Tests.png){:height="582px" width="807px"}
 
 # Execution
 
