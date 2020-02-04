@@ -43,19 +43,19 @@ The test directory:
 - If any issues in pom.xml regaarding the versions then upgrade them and try again
 - Once build is done then either create a Run config in your IDE or type the command from terminal/CMD
 
-### Usage 1
-- FileReaderApplication data.csv ENC_AES128 COM_GZIP
+### Usage 1`
+- `>> FileReaderApplication data.csv ENC_AES128 COM_GZIP
   - Here compression and encryption modules are loaded since user specified both the options. It means, data is decompressed first, decrypted and parsed as CSV record
 
 ### Usage 2
-- FileReaderApplication data.csv COM_GZIP
+- `>> FileReaderApplication data.csv COM_GZIP`
   - Here compression module is loaded since user specifieed compression only. It means, data is decompressed and parsed as CSV record
 
 ### Usage 3
-- FileReaderApplication data.csv ENC_AES128
+- `>> FileReaderApplication data.csv ENC_AES128`
   - Here encryption module is loaded since user specify encryption only. It means, data is decrypted and parsed as CSV record
 
 ### Usage 4
-- FileReaderApplication data.csv
+- `>> FileReaderApplication data.csv`
 
 No option is specified. It means, data is read and parsed as CSV record
