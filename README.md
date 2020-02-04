@@ -1,4 +1,4 @@
-# file-reader
+# File-reader
 This is design of a generic File based reader which supports reading data and handles encoding, decryption & decompression based on user configuration.
 
 This project is written in core java without using any frameworks.
@@ -31,3 +31,31 @@ The project directory:
 ## Test the file reader
 The test directory:
 ![](docs/images/Tests.png)
+
+# Execution
+
+- Clone the project
+- Import the project into your IDE. I used IntelliJ
+- Modify the settings accordingly
+- Ensure that the project is artifacted with Java 1.8 in all preferences or in settings
+- Create a temp folder for the logs and update the path in the ApplicationConstant.java file at LOG_PATH variable
+- Do a Maven (Clean, package/install) and let all the dependencies be available
+- If any issues in pom.xml regaarding the versions then upgrade them and try again
+- Once build is done then either create a Run config in your IDE or type the command from terminal/CMD
+
+### Usage 1
+- FileReaderApplication data.csv ENC_AES128 COM_GZIP
+  - Here compression and encryption modules are loaded since user specified both the options. It means, data is decompressed first, decrypted and parsed as CSV record
+
+### Usage 2
+- FileReaderApplication data.csv COM_GZIP
+  - Here compression module is loaded since user specifieed compression only. It means, data is decompressed and parsed as CSV record
+
+### Usage 3
+- FileReaderApplication data.csv ENC_AES128
+  - Here encryption module is loaded since user specify encryption only. It means, data is decrypted and parsed as CSV record
+
+### Usage 4
+- FileReaderApplication data.csv
+
+No option is specified. It means, data is read and parsed as CSV record
