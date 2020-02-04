@@ -43,7 +43,7 @@ The test directory:
 - If any issues in pom.xml regaarding the versions then upgrade them and try again
 - Once build is done then either create a Run config in your IDE or type the command from terminal/CMD
 
-### Usage 1`
+### Usage 1
 - `>> FileReaderApplication data.csv ENC_AES128 COM_GZIP` _( ENC = encrypt, COM = compression )_
   - Here compression and encryption modules are loaded since user specified both the options. It means, data is decompressed first, decrypted and parsed as CSV record
 
