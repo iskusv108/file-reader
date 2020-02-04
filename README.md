@@ -26,11 +26,11 @@ Also unit tests are covered as well.
 ## Architecturing the file reader
 
 The project directory:
-![](docs/images/Overall.png =582x807)
+![](docs/images/Overall.png)
 
 ## Test the file reader
 The test directory:
-![](docs/images/Tests.png)
+![](docs/images/Tests.png=582x807)
 
 # Execution
 
