@@ -28,3 +28,6 @@ Also unit tests are covered as well.
 The project directory:
 ![](docs/images/Overall.png)
 
+## Test the file reader
+The test directory:
+![](docs/images/Tests.png)
