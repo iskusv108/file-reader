@@ -60,7 +60,7 @@ The test directory:
 No option is specified. It means, data is read and parsed as CSV record
 
 
-## Running from IDE (IntelliJ)
+# Running from IDE (IntelliJ)
 
 Run/Debug Configuration
 
