@@ -26,5 +26,5 @@ Also unit tests are covered as well.
 ## Architecturing the file reader
 
 The project directory:
-![](docs/images/overall.png)
+![](docs/images/Overall.png)
 
